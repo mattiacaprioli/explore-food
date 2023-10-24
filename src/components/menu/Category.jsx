@@ -5,7 +5,6 @@ import styled from 'styled-components'
 import {FiHome} from 'react-icons/fi'
 import {FaPizzaSlice} from 'react-icons/fa'
 import {FaHamburger} from 'react-icons/fa'
-import {GiNoodles} from 'react-icons/gi'
 import {GiChopsticks} from 'react-icons/gi'
 
 import { NavLink } from 'react-router-dom'
@@ -25,10 +24,7 @@ const Category = () => {
             <FaHamburger/>
             <h4>American</h4>
         </Slink>
-        <Slink to={"/cuisine/thia"}>
-            <GiNoodles/>
-            <h4>Thia</h4>
-        </Slink>
+
         <Slink to={"/cuisine/japanese"}>
             <GiChopsticks/>
             <h4>Japanese</h4>
@@ -40,7 +36,7 @@ const Category = () => {
 const List = styled.div`
     display: flex;
     justify-content: center;
-    margin: 2rem -6rem;
+    margin: 0.5rem 0rem;
 `
 
 const Slink = styled(NavLink)`

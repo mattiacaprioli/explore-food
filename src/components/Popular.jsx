@@ -44,7 +44,7 @@ const Popular = () => {
           arrows: false,
           pagination: false,
           drag: 'free',
-          gap: "2rem"
+          gap: "1rem"
         }}
       >
         {popular.map((item,index) =>{
@@ -65,7 +65,7 @@ const Popular = () => {
   )
 }
 const Wrapper = styled.div`
-  margin: 4rem -8rem;
+  margin: 4rem 0rem;
 `;
 
 export default Popular

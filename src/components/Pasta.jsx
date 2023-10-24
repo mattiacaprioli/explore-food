@@ -45,7 +45,7 @@ const Pasta = () => {
           arrows: false,
           pagination: false,
           drag: 'free',
-          gap: "5rem"
+          gap: "1rem"
         }}
       >
         {paste.map((item,index) =>{
@@ -67,7 +67,7 @@ const Pasta = () => {
 }
 
 const Wrapper = styled.div`
-  margin: 4rem -8rem;
+  margin: 4rem 0rem;
 `;
 
 

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Card = styled.div`
-  min-height: 25rem;
+  min-height: 16rem;
   border-radius: 1rem;
   overflow: hidden;
   position: relative;
@@ -23,18 +23,25 @@ const Card = styled.div`
   p {
     position: absolute;
     z-index: 10;
-    left: 50%;
-    bottom: 0;
+    left: 5%;
+    bottom: 0%;
     transform: translateY(-50%, 0%);
     color: white;
     display: flex;
     width: 100%;
-    text-align: center;
+    text-align: start;
     font-weight: 600;
-    font-size: 1rem;
-    height: 40%;
+    font-size: 0.6rem;
+    height: 23%;
+    max-width: 70%;
     justify-content: center;
     align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    p {
+      font-size: 1rem; /* Imposta la dimensione desiderata per desktop */
+    }
   }
 `;
 
