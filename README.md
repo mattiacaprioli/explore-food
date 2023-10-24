@@ -24,7 +24,7 @@ link: https://explorefood.netlify.app/
 
 ## Screenshot
 
-![Banner](https://github.com/mattiacaprioli/food-site/blob/main/src/images/Screenshot.png)
+![Banner](https://github.com/mattiacaprioli/explore-food/blob/main/src/images/Screenshot.png)
 
 ## Tecnologie utilizzate
 
